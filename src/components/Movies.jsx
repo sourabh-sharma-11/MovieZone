@@ -9,7 +9,7 @@ const Movies = () => {
   }
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
       <div className='my-3 mx'>
         <div className='mx-auto text-center' style={{display:'flex',justifyContent:'space-evenly',flexWrap:'wrap',gap:'10px'}}> <button onClick={() => setMovieList(movies)} type="button" className="btn btn-outline-primary mx-3 " >All</button>
           <button onClick={() => filterByCategory('Action')} type="button" className="btn   btn-outline-primary mx-3">Action</button>
